@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js" 
+               integrity="sha512-N4kV7GkNv7QR7RX9YF/olywyIgIwNvfEe2nZtfyj73HdjCUkAfOBDbcuJ/cTaN04JKRnw1YG1wnUyNKMsNgg3g=="
+               crossorigin="anonymous" 
+               referrerpolicy="no-referrer"></script>
+    
+    <!-- the p5 sound library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/addons/p5.sound.min.js" integrity="sha512-WzkwpdWEMAY/W8WvP9KS2/VI6zkgejR4/KTxTl4qHx0utqeyVE0JY+S1DlMuxDChC7x0oXtk/ESji6a0lP/Tdg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="sketch.js"></script>
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chivo:wght@400;700&family=Work+Sans&display=swap" rel="stylesheet">
+    <style></style>
+  </head>
+  <body>
+    <h1>SYMBIOTA</h1>
+    <h2>YOU ARE WHAT YOU EAT</h2>
+    <div id="canvas_container"></div>
+    <div id="instructions">
+      <h2>INSTRUCTIONS</h2>
+      <p>Welcome to Symbiota! This game is a simulation of the human gut microbiome, which is 
+        the community of the trillions of microbiota (bacteria, fungi, parasites, and viruses) 
+        living throughout the body. The microbiome is considered a supporting organ because it 
+        plays so many key roles in the body, from strengthening your immune system to helping 
+        you obtain nutrients from food. The balance and types of bacteria in your microbiome 
+        are directly influenced by your food choices. Your goal is to achieve a state of 
+        symbiosis: the peaceful coexistence of all types of microbiota within the microbiome.</p>
+
+      <!-- <p>This game simulates three of the most common bacteria found in the microbiome: 
+        Bifidobacteria, Lactobacillus, and Clostridium difficile. While Bifidobacteria and 
+        Lactobacillus are good bacteria which perform many essential functions, Clostridium 
+        difficile is an example of a type of bacteria which could be harmful if it overgrows. 
+        In this game, Clostridium difficile will spawn periodically, indicated by the "Next 
+        Wave" bar. The number of Clostridium difficile that spawn is proportional to the number
+        of good bacteria on screen. Make sure to click on the buttons at the top to find out 
+        more about each bacteria, and what foods help them reproduce.</p>
+
+      <p>Each bacteria has a health level, indicated by the bar floating below it. 
+        The good bacteria, Bifidobacteria and Lactobacillus, and the bad bacteria, Clostridium 
+        difficile, attack each other while there are 3 or more Clostridium difficile, during which 
+        the microbiome is in a state of dysbiosis (imbalance). If a bacteria's health bar drops 
+        to zero, it will die.</p>
+
+      <p>The good bacteria will release coins periodically which can be used to buy food. Hover 
+        your mouse over coins to collect them. To buy a food, just drag it into the microbiome 
+        in the center. Each food will add a certain bacteria, based on the nutrients it contains. 
+        After you buy a food, you will not be able to buy it again for a short time, indicated by 
+        a countdown over the food image. You have to buy the right combination of foods to 
+        cultivate the goal numbers of bacteria.</p>
+
+      <p>If you get the counts of each bacteria to match the goal counts, you win. 
+        If all of your good bacteria die, you lose.</p> -->
+
+      <p>Controls:
+        <ul>
+          <li>Click on the bacteria labels at the top to read their bios.</li>
+          <li>Drag the foods into the microbiome in the center to buy them.</li>
+          <li>Hover over coins to collect them.</li>
+          <li>Click on the mute button or press "M" key to toggle mute.</li>
+        </ul>
+      </p>
+
+      <p>Have fun!</p>
+    </div>
+  </body>
+</html>
